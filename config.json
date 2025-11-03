@@ -19,9 +19,9 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "dest": "zws1-1.web.telegram.org:443",	// здесь заменить `example.com` на ваш сайт из шага №3, порт оставляем
+                    "dest": "deploy.cx:443",	// здесь заменить `example.com` на ваш сайт из шага №3, порт оставляем
                     "serverNames": [
-                    "zws1-1.web.telegram.org"		// заменить на ваш сайт из шага №3
+                    "deploy.cx"		// заменить на ваш сайт из шага №3
                     ],
                     "privateKey": "sMf_oo2kq_C_UHNqk97QTK7Z_mhlQMLxJvroa6712nU",		// вставить приватный ключ (Private key), созданный на шаге №2
                     "shortIds": [   
@@ -48,3 +48,4 @@
     ]
 
 }
+
