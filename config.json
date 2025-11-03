@@ -4,7 +4,8 @@
     },
     "inbounds": [
         {
-            "port": 8443, 
+            "listen": "0.0.0.0",
+            "port": 443, 
             "protocol": "vless",
             "settings": {
                 "clients": [
@@ -19,9 +20,9 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "dest": "deploy.cx:443",	// здесь заменить `example.com` на ваш сайт из шага №3, порт оставляем
+                    "dest": "9gag.com:443",	// здесь заменить `example.com` на ваш сайт из шага №3, порт оставляем
                     "serverNames": [
-                    "deploy.cx"		// заменить на ваш сайт из шага №3
+                    "9gag.com"		// заменить на ваш сайт из шага №3
                     ],
                     "privateKey": "sMf_oo2kq_C_UHNqk97QTK7Z_mhlQMLxJvroa6712nU",		// вставить приватный ключ (Private key), созданный на шаге №2
                     "shortIds": [   
@@ -48,4 +49,5 @@
     ]
 
 }
+
 
