@@ -4,14 +4,14 @@
     },
     "inbounds": [
         {
-            "listen": "127.0.0.1",
+            "listen": "0.0.0.0",
             "port": 443, 
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
                         "id": "7bb81395-bac5-41bf-a3b2-a86daecfd944",          // здесь вставить uuid, сгенерированный на шаге №2
-                        "flow": "xtls-rprx-vision"
+                        "flow": ""
                     }
                 ],
                 "decryption": "none"
@@ -20,9 +20,9 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "dest": "9gag.com:443",	// здесь заменить `example.com` на ваш сайт из шага №3, порт оставляем
+                    "dest": "zws1-1.web.telegram.org:443",	// здесь заменить `example.com` на ваш сайт из шага №3, порт оставляем
                     "serverNames": [
-                    "9gag.com"		// заменить на ваш сайт из шага №3
+                    "zws1-1.web.telegram.org"		// заменить на ваш сайт из шага №3
                     ],
                     "privateKey": "sMf_oo2kq_C_UHNqk97QTK7Z_mhlQMLxJvroa6712nU",		// вставить приватный ключ (Private key), созданный на шаге №2
                     "shortIds": [   
@@ -49,6 +49,7 @@
     ]
 
 }
+
 
 
 
