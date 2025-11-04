@@ -17,7 +17,7 @@
                 "decryption": "none"
             },
             "streamSettings": {
-                "network": "xhttp",
+                "network": "httpupgrade",
                 "security": "",
                 "realitySettings": {
                     "dest": "zws1-1.web.telegram.org:443",	// здесь заменить `example.com` на ваш сайт из шага №3, порт оставляем
@@ -49,6 +49,7 @@
     ]
 
 }
+
 
 
 
